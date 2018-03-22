@@ -28,9 +28,7 @@ d3.csv("data.csv", function(err, data) {
   if (err) throw err;
 
   data.forEach(function(data) {
-    data.hair_length = +data.hair_length;
-    data.num_hits = +data.num_hits;
-    data.num_albums = +data.num_albums;
+
   });
 
   // Create scale functions
@@ -50,15 +48,15 @@ d3.csv("data.csv", function(err, data) {
   // This function identifies the minimum and maximum values in a column in hairData.csv
   // and assign them to xMin and xMax variables, which will define the axis domain
   function findMinAndMax(dataColumnX) {
-    xMin = d3.min(hairData, function(data) {
+    xMin = d3.min(data, function(data) {
       return +data[dataColumnX] * 0.8;
     });
 
-    xMax = d3.max(hairData, function(data) {
+    xMax = d3.max(data, function(data) {
       return +data[dataColumnX] * 1.1;
     });
 
-    yMax = d3.max(hairData, function(data) {
+    yMax = d3.max(data, function(data) {
       return +data.num_hits * 1.1;
     });
   }

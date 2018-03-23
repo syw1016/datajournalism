@@ -2,8 +2,6 @@
 
 ## Data Journalism and D3
 
-https://syw1016.github.io/datajournalism/
-
 Data to run analysis on 
 
 ### X axis
@@ -16,3 +14,9 @@ Data to run analysis on
 2. Mdefian Income ($)
 
 +These variables are picked based on the correlation values found in datasets/corr.xlsx
+
+### End Product
+https://syw1016.github.io/datajournalism/
+1. tooltip is in place
+2. iframe is responsive on window resize
+3. labels and ticks are in place

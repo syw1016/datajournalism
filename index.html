@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>HW</title>
+  <title>HW</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -13,9 +14,9 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-12 col-md-9 col-md-offset-0">
+			<div class="col-xs-12 col-md-12 col-md-offset-0">
 				<div class="iframeContainer">
-          <iframe src="d3.html"></iframe>
+          <iframe id="frame" src="d3.html"></iframe>
 				</div>
 			</div>
 		</div>
@@ -28,6 +29,11 @@
 	</div>
 	<div id="footer">
 		<p></p>
-	</div>
+  </div>
+  <script>
+  window.addEventListener("resize", function() {
+    document.getElementById('frame').contentDocument.location.reload(true);
+  })
+  </script>
 </body>
 </html>

@@ -31,11 +31,17 @@
   border-radius: 10px;
 }
 
-.axis-text {
+.x-axis-text,
+.y-axis-text {
   font-family: sans-serif;
   font-weight: bold;
   fill: #551aaf;
   text-anchor: middle;
+}
+
+.state-abbr {
+  color: white;
+  font-size: 10px;
 }
 
 .active {

@@ -3,6 +3,11 @@
   border: 1px solid #e3e3e3;
 }
 
+iframe {
+  width: 1000px;
+  height: 600px;
+}
+
 /* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
 html {
   position: relative;

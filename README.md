@@ -2,6 +2,8 @@
 
 ## Data Journalism and D3
 
+https://syw1016.github.io/datajournalism/
+
 Data to run analysis on 
 
 ### X axis

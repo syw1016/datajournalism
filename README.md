@@ -17,6 +17,3 @@ Data to run analysis on
 
 ### End Product
 https://syw1016.github.io/datajournalism/
-1. tooltip is in place
-2. iframe is responsive on window resize
-3. labels and ticks are in place
